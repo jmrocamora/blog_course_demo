@@ -11,7 +11,7 @@
 <body>
 
 	<header id="main_navigation" class="clearfix">
-		<a href="#" class="name">Jose Maria Rocamora</a>
+		<%= link_to "Jose Maria Rocamora", root_path, class: "name" %>
 		<nav>
 			<%= link_to "Articulos", posts_path %>
 			<a href="#">Proyectos</a>
@@ -20,6 +20,16 @@
 	</header> 
 
 <%= yield %>
+
+<footer id="main_footer">
+		<p class="copyright">&copy; 2016 Jmrocamora</p>
+		<nav>
+			<a href="http://twitter.com/jmrocamora" target="_blank"><i class="fa fa-twitter"></i></a>
+			<a href="http://github.com/jmrocamora" target="_blank"><i class="fa fa-github"></i></a>
+			<a href="http://bitbucket.org/jmrocamora/a" target="_blank"><i class="fa fa-bitbucket"></i></a>
+			<a href="https://www.linkedin.com/in/jmrocamora" target="_blank"><i class="fa fa-linkedin"></i></a>
+		</nav>
+	</footer>
 
 </body>
 </html>
