@@ -25,6 +25,7 @@ gem 'pygments.rb', '~> 0.6.3'
 gem 'redcarpet', '~> 3.3', '>= 3.3.4'
 gem 'friendly_id', '~> 5.1'
 gem 'will_paginate', '~> 3.1'
+gem 'mail_form', '~> 1.5', '>= 1.5.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
