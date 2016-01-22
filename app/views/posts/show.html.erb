@@ -4,10 +4,18 @@
 		<h1><%= @post.title %></h1>
 		<hr>
 	</header>
+	
 	<div id="content">
 		<!-- Con "simple_format" damos formato a la hora de mostrar en html  -->
 		<%= markdown @post.content %>
 	</div>
+
+	<% if user_signed_in? %>
+		<div id="admin_links">
+			<%= link_to "Editar Articulo", edit_post_path(@post) %>
+			<%= link_to "Borrar Articulo", post_path(@post), method: :delete, data: { confirm: "¿Está seguro?" } %>
+		</div>
+	<% end %>
 
 	<hr>
 
@@ -32,5 +40,3 @@
 	<%= render 'disqus'%>
 
 </div>	
-
-<%= link_to "Editar", edit_post_path(@post) %>
