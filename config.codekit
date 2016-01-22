@@ -2,78 +2,52 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18268",
 "files": {
-	"\/article_show.html": {
-		"fileType": 8192,
+	"\/app\/assets\/javascripts\/application.js": {
+		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/article_show.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/app\/assets\/javascripts\/application.js",
+		"outputAbbreviatedPath": "\/app\/assets\/javascripts\/min\/application-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
-	"\/articles.html": {
-		"fileType": 8192,
+	"\/app\/assets\/javascripts\/posts.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/articles.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/app\/assets\/javascripts\/posts.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/app\/assets\/javascripts\/posts.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
 		},
-	"\/contact.html": {
-		"fileType": 8192,
+	"\/app\/assets\/javascripts\/welcome.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contact.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/app\/assets\/javascripts\/welcome.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/app\/assets\/javascripts\/welcome.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
 		},
-	"\/css\/application.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/application.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/post_project.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/post_project.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/welcome.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/welcome.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/scss\/_normalize.scss": {
+	"\/app\/assets\/stylesheets\/_normalize.css.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/_normalize.scss",
-		"outputAbbreviatedPath": "\/css\/_normalize.css",
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/_normalize.css.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/css\/_normalize.css.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -81,31 +55,63 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/application.scss": {
+	"\/app\/assets\/stylesheets\/_post_projects.css.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/_post_projects.css.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/css\/_post_projects.css.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/_welcome.css.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/_welcome.css.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/css\/_welcome.css.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/app\/assets\/stylesheets\/application.css.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/application.scss",
-		"outputAbbreviatedPath": "\/css\/application.css",
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/application.css.scss",
+		"outputAbbreviatedPath": "\/application.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/post_project.scss": {
+	"\/app\/assets\/stylesheets\/pygments.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/post_project.scss",
-		"outputAbbreviatedPath": "\/css\/post_project.css",
+		"inputAbbreviatedPath": "\/app\/assets\/stylesheets\/pygments.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/css\/pygments.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -113,21 +119,104 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/welcome.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
+	"\/app\/views\/layouts\/application.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/welcome.scss",
-		"outputAbbreviatedPath": "\/css\/welcome.css",
+		"inputAbbreviatedPath": "\/app\/views\/layouts\/application.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/posts\/_disqus.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/posts\/_disqus.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/posts\/_form.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/posts\/_form.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/posts\/edit.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/posts\/edit.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/posts\/index.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/posts\/index.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/posts\/new.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/posts\/new.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/posts\/show.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/posts\/show.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/views\/welcome\/index.html.erb": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/welcome\/index.html.erb",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/404.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/404.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/422.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/422.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/500.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/500.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
